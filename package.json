@@ -1,0 +1,48 @@
+{
+  "name": "creative-network-platform",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "apps/*"
+    ],
+    "nohoist": [
+      "**/react-native",
+      "**/react-native/**",
+      "**/@react-native/**",
+      "**/react-native-*",
+      "**/expo",
+      "**/expo-*"
+    ]
+  },
+  "scripts": {
+    "dev:web": "npm run dev -w @creative-network/web",
+    "dev:mobile": "cd apps/mobile && npx expo start",
+    "dev:api": "npm run dev -w @creative-network/api",
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present"
+  },
+  "devDependencies": {
+    "@react-native/metro-config": "^0.76.4",
+    "@types/node": "^20.11.5",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.2.4",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^7.0.13",
+    "expo-router": "^4.0.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native-gesture-handler": "^2.21.2",
+    "react-native-get-random-values": "^1.11.0",
+    "react-native-reanimated": "^3.16.3",
+    "react-native-safe-area-context": "^5.0.0",
+    "react-native-screens": "^4.3.0",
+    "react-native-vector-icons": "^10.2.0"
+  }
+}

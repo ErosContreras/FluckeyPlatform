@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>76928364407-a9kltr59dg74884qp3g4kufb3lbsijvk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.76928364407-a9kltr59dg74884qp3g4kufb3lbsijvk</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAVcirruzk7Bf38G2SfqL08QQy8IM2JU6c</string>
+	<key>GCM_SENDER_ID</key>
+	<string>76928364407</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Clover.Fluckey</string>
+	<key>PROJECT_ID</key>
+	<string>fluckeyplatform</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fluckeyplatform.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:76928364407:ios:2242de87e23b916aa37b72</string>
+</dict>
+</plist>

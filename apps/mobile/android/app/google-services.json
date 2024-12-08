@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "76928364407",
+    "project_id": "fluckeyplatform",
+    "storage_bucket": "fluckeyplatform.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76928364407:android:35b998b20474901ba37b72",
+        "android_client_info": {
+          "package_name": "com.Clover.Fluckey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76928364407-ai55ekiqo6ufthcdj7ha0uv3cnr0rm9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl8cQgxy9QzhfiXDRQh4bzPeSi3HCWwU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76928364407-ai55ekiqo6ufthcdj7ha0uv3cnr0rm9r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "76928364407-a9kltr59dg74884qp3g4kufb3lbsijvk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Clover.Fluckey"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
